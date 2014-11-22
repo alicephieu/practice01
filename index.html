@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <title>Practice 01 | Wanderland</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <style>
-        nav a {
-            color: white;
-            background-color: orange;
-        }
-    </style>
+
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>Wanderland</h1>
             <h2>A place for Alice to practice her coding</h2>
         </a>
 
         <nav>
             <ul>
-                <li><a href="index.html">Main</a></li>
+                <li><a href="index.html" class="selected">Main</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul></nav>
     </header>
-
+<div id="wrapper">
     <section>
-        <ul>
-            <li><a href="img/image0.jpg"><img src="img/image01.jpg" alt="image 1"></a>
+        <ul id="gallery">
+            <li><a href="img/image01.jpg"><img src="img/image01.jpg" alt="image 1"></a>
                 <p>This is photograph #1</p></li>
             <li><a href="img/image02.jpg"><img src="img/image02.jpg" alt="image 2"></a>
                 <p>This is photograph #2</p></li>
@@ -47,5 +43,6 @@
         <p>This is a demo site based on lessons from <a href="http://teamtreehouse.com/">Treehouse.</a>
             The photographs are from <a href="http://www.unsplash.com">Unsplash.</a></p>
     </footer>
+</div>
 </body>
 </html>
